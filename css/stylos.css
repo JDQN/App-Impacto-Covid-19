@@ -1,0 +1,27 @@
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+	outline: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --color-landing:#f0f0f0;
+  --color-botones:#3639AE;
+  --color-cards:#1563C1;
+  --color-titulosTextos:#293F73;
+  --color-footer:#1B2A4E;
+  --color-hiperVinculos:#494CB6;
+  --color-parrafoFinal:#A8A8A8;
+  --color-numeroUno:#82C519;
+  --color-numeroDos:#FF0005;
+  --color-numeroTres:#2C6DFF;
+  --color-numeroCuatro:#FF6B10;
+  --color-numeroCinco:#B70202;
+}
+
+
+.btnTracker{
+  border-radius: 4px;
+  background-color: var(--color-botones);
+}
