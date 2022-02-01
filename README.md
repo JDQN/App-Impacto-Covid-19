@@ -3,3 +3,5 @@ Trabajaremos en crear una página web con un dashboard en el que se pueda ver el
 
 Trabajado por Karen Daniel y Juan David
 Trabajado por Karen Daniel y Juan David
+Trabajado por Karen Daniel y Juan David
+Trabajado por Karen Daniel y Juan David
