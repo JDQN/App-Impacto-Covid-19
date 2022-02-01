@@ -4,7 +4,7 @@ Trabajaremos en crear una página web con un dashboard en el que se pueda ver el
 Trabajado por Karen Daniel y Juan David
 
 <!-- comandos  -->
-0. git checkout david
+0. git checkout david 
 
 1. git add . && git commit -m "Archivos de proyecto y organizacion" && git push origin david
 
@@ -14,3 +14,4 @@ Trabajado por Karen Daniel y Juan David
 
 4. git add . && git commit -m "Archivos de proyecto y organizacion" && git push origin dev
 
+5. 
