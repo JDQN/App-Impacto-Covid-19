@@ -1,0 +1,22 @@
+{
+  "name": "app-impacto-covid-19",
+  "version": "1.0.0",
+  "description": "Trabajaremos en crear una página web con un dashboard en el que se pueda ver el número de los contagios de covid-19 hasta la fecha, así como el número de recuperados y el número de personas vacunadas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JDQN/App-Impacto-Covid-19.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JDQN/App-Impacto-Covid-19/issues"
+  },
+  "homepage": "https://github.com/JDQN/App-Impacto-Covid-19#readme",
+  "devDependencies": {
+    "sass": "^1.49.5"
+  }
+}
