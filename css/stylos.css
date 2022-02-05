@@ -136,12 +136,15 @@ body{
   
 }
 
+
+
 .contenedor__texts h2 {
   text-align: center;
   font-family: var(--font-lanenar);
   color: var(--color-titulosTextos);
   font-size: 3rem;
   font-weight: 800;
+ 
 }
 
 .contenedor__texts p {
@@ -159,7 +162,9 @@ body{
   gap: 20px;
   width: 100%;
   margin-bottom: 50px;
+
 }
+
 
 .card__textos{
   display: flex;
@@ -516,6 +521,9 @@ body{
     margin-top: 50px;
     font-size: 1rem;
   }
+
+  
+
 }
 
 @media screen and (max-width: 500px){
@@ -578,6 +586,8 @@ body{
   .cel__textos a {
     font-size: .5rem;
     padding: 5px;
+    
+
   }
 
   .cel__img {
@@ -597,7 +607,6 @@ body{
     width: 150px;
 
   }
-}
   /***********cards**********/
 
   .card__textos {
@@ -610,8 +619,6 @@ body{
     font-weight: 600;
 
   }
-
-
   .card__btn-text {
     font-size: 1rem;
   }
@@ -663,10 +670,12 @@ body{
     margin-top: 50px;
     font-size: 1rem;
   }
+}
+
 
 /*******************SECTION PREVENT ****************/
 #prevent {
-  background-color: var(--color-landing);
+  background-color: #f0f0f0;
 }
 
 #prevent h1{
@@ -724,6 +733,10 @@ body{
   align-items: center;
   display: flex;
 }
+.card-spreads{
+  border-radius: 6px !important;
+  box-shadow: 0px 8px 24px rgba(15, 65, 116, 0.493) ;
+}
 
 @media (max-width: 576px){
   #prevent h1{
@@ -775,6 +788,7 @@ body{
     text-align: center;
   }
 }
+
 
 /*******************SECTION SPREADS ****************/
 #spreads {

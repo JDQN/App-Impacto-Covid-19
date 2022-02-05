@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+	outline: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --color-landing:#f0f8ff;
+  --color-botones:#3639AE;
+  --color-cards:#1563C1;
+  --color-titulosTextos:#515184;
+  --color-footer:#1B2A4E;
+  --color-hiperVinculos:#494CB6;
+  --color-parrafoFinal:#A8A8A8;
+  --color-numeroUno:#82C519;
+  --color-numeroDos:#FF0005;
+  --color-numeroTres:#2C6DFF;
+  --color-numeroCuatro:#FF6B10;
+  --color-numeroCinco:#B70202;
+	--font-popin:'Poppins', sans-serif;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	margin:0;
+	position:relative;
+	min-height: 100vh;
+	font-family: 'Poppins', sans-serif;
+}
+.dropdown-item:hover{
+	background-color:var(--color-botones) !important;
+	color: #fff !important;
+	font-family: 'Poppins', sans-serif;
+}
+
+#menu{
+  background-image: url(/img/3626307.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  /* background-color:crimson; */
+}
+.navbar-nav{
+	display: flex;
+	flex-direction: column;
+	padding-left: 26% !important;
+	margin-bottom: 0;
+	list-style: none;
+}.nav-link{
+	color: #fff !important;
+	display: flex;
+	justify-content: space-around !important;
+	margin: 13px;
+}
+li a{
+	color: var(--color-titulosTextos) !important;
+	font-family: 'Poppins', sans-serif;
+}
+#boton{
+  width: 10vw;
+  background-color: var(--color-botones);
+  border:none !important;
+  color:#fff;
+  border-radius:25px;
+  padding:6% 20%;
+  margin-left: -19%;
+}
+.logoCiviMap{
+	vertical-align: middle;
+	margin-left: 50%;
+	z-index: 3;
+}
+
+.containerBanner{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+.imgBanner{
+  margin-left: 19%;
+  margin-top: -15%;
+}
+.labelUno{
+	width: 6vw;
+	height: 4vh;
+	border-radius: 6px;
+	background-color: var(--color-numeroCuatro);
+	justify-content: center; 
+	text-align: center;
+  color:#fff;
+}
+.cardDatosBandera{
+	width:33vw;
+	height:16vh;
+	padding: 10px;
+	border-radius: 9px;
+	background-color:#fff;
+	margin-top: -19%;
+	margin-left: 6%;
+}
+.labelDos{
+	width: 8vw;
+	height: 4vh;
+	border-radius: 6px;
+	background-color: var(--color-numeroUno);
+	justify-content: center;
+	text-align: center;
+  color:#fff;
+}
+.textNumero{
+	font-family: var(--font-lanenar);
+	font-size: 39px;
+	font-weight: bold;
+	margin-left:19px;
+	color:var(--color-numeroCinco);
+}
+.tituloH1{
+  font-size: 60px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: -13%;
+  margin-left: 3%;
+}
+.parrafoBanner{
+  font-size: 16px;
+  color: #fff;
+}
+
+
+@media screen and (max-width: 360px) {
+	.logoCiviMap{
+    vertical-align: middle;
+	  margin-left: 10%;
+    /* background-color: #fff; */
+	  z-index: 3;
+  }
+  #boton{
+    display:none;
+  }
+  .navbar{
+    background-color: #fff;
+    z-index: 1;
+  }
+  a.nav-link{
+    color:var(--color-titulosTextos) !important;
+    justify-content:flex-start;
+    margin-left: -50px;
+  }
+  li a{
+    color: var(--color-titulosTextos) !important;
+    font-family: 'Poppins', sans-serif;
+  }
+  .logoCiviMap{
+    background-image: url(../img/logo.png) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  #menu{
+    width: 100vw;
+    height: 180vh;
+    background-image: url(/img/3626307.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-color:crimson; */
+  }
+  .containerBanner{
+    position: relative;
+    height: 180vh;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  } 
+  .imgBanner{
+    margin: auto;
+  }
+  .tituloH1{
+    width: 90vw;
+    font-size: 36px;
+    margin-top: -13%;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .parrafoBanner{
+    width: 90vw;
+    font-size: 19px;
+    text-align: left;
+    margin-top: 9%;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .cardDatosBandera{
+    width:90vw;
+    height:21vh;
+    padding: 10px;
+    border-radius: 9px;
+    background-color:#fff;
+    margin-top: -6%;
+    margin-left: 5%;
+  }
+  
+  .labelUno{
+    width: 19vw;
+    height: 5vh;
+    border-radius: 6px;
+    background-color: var(--color-numeroCuatro);
+    justify-content: center; 
+    text-align: center;
+    margin-left:16px;
+  }
+  .labelDos{
+    width: 26vw;
+    height: 5vh;
+    border-radius: 6px;
+    background-color: var(--color-numeroUno);
+    justify-content: center;
+    text-align: center;
+  }
+}
+
