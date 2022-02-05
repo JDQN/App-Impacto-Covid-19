@@ -1,11 +1,16 @@
-<h1>🚀  App-Impacto-Covid-19 en el mundo 🚀</h1>
+<h1>😷  App-Impacto-Covid-19 en el mundo. 😷</h1>
 
-Educamás -> Programate Cohorte IV REEDOM DEVELOPER. 💻
+
+<p><em> Educamás -> <a href="https://educamas.com.co/">Programate</a> Cohorte IV REEDOM DEVELOPER. 💻 </br>
+</em></p>
+
 
 Trabajaremos en crear una página web con un dashboard en el que se pueda ver el número de los contagios de covid-19 hasta la fecha, así como el número de recuperados y el número de personas vacunadas.
 
-<h1>Contexto del proyecto</h1>
-<p>Trabajado por Karen Daniel y Juan Davi</p>
+<h1>📌 Contexto del proyecto</h1>
+<p>🏆 Trabajado por Karen Daniel y Juan Davi</p>
+
+<img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador">
 
 <h2>Contexto del proyecto</h2>
 
@@ -76,4 +81,35 @@ Pueden utilizar la librería D3Js para las gráficas.
 Pueden utilizar preprocesadores de CSS.
 ​
 
-<img src="">
+<h2>🛠 Tech Stack</h2>
+
+- 🌐 &nbsp; HTML5 | CSS3 | Bootstrap | JavaScritp |
+- 🛢 &nbsp; CONSUMO API  disease.sh. https://disease.sh/docs/#/
+
+
+<img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/1.Inicio.png">
+
+
+<img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/2.Symptom.png">
+
+
+<img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/3.Prevent.png">
+
+
+<img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/4.Spreads.png">
+
+
+<img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/5.Faqs.png">
+
+
+<img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/6.Wash.png">
+
+
+<img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/7.News.png">
+
+
+<img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/8.Footer.png">
+
+
+
+
