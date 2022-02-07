@@ -37,7 +37,7 @@ body{
 }
 
 #menu{
-  background-image: url(/img/3626307.jpg);
+  background-image: url(../img/3626307.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -50,6 +50,7 @@ body{
 	padding-left: 26% !important;
 	margin-bottom: 0;
 	list-style: none;
+  
 }.nav-link{
 	color: #fff !important;
 	display: flex;
