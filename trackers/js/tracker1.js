@@ -16,25 +16,20 @@ document.addEventListener("DOMContentLoaded", () => {
       }
   }
   
-  const pintarCards = countries => {
-      const Card = document.getElementById('card');
-      const templateCards = document.getElementById('template-card').content;
-      const fragment = document.createDocumentFragment()
+  const pintarCards = countries => { 
+    const Card = document.getElementById('card'); 
+    const templateCards = document.getElementById('template-card').content; 
+    const fragment = document.createDocumentFragment() 
+ 
+    //console.log(data); 
+    for (let i = 0; i < 10; i++) { 
+        const clone = templateCards.cloneNode(true) 
+        clone.querySelector(".texto-top").textContent = countries[i].cases; 
+        clone.querySelector(".img-text_top").textContent = countries[i].country; 
+        let flag = countries[i].countryInfo.flag; 
+        clone.querySelector(".img-bandera").setAttribute("src", flag); 
+        fragment.appendChild(clone) 
+    } 
+    Card.appendChild(fragment); 
+}
   
-      //console.log(data);
-      countries.forEach(item => {
-          console.log(item)
-  
-          const clone = templateCards.cloneNode(true)
-          clone.querySelector(".texto-top").textContent = item.cases;
-          clone.querySelector(".img-text_top").textContent = item.country;
-          // clone.querySelector("img").setAttribute("src", item.countryInfo.flag);
-  
-  
-          fragment.appendChild(clone)
-          
-      });
-  
-      Card.appendChild(fragment);
-  
-  }

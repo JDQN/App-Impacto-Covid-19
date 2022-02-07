@@ -1,115 +1,94 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="../css/tracker2.css">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/tracker1.css" />
+    <link rel="shortcut icon" href="../../img/coronavirus.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../../themify-icons/themify-icons.css" />
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/componenteCard.css" />
+    <title>Tracker 1</title>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css">
+    <title>Track-1</title>
+</head>
 
-    <title>Hello, world!</title>
-
-  </head>
-  <body>
+<body>
     <div class="contenedor">
-      <div class="navbar">
-          <a href="../../index.html"><img src="../../img/coronavirus.png" alt=""></a>
-          <nav >
-              <ul class="menu">
-                  <li>1</li>
-                  <li>2</li>
-                  <li>3</li>
-                  <li>4</li>
-                  <li>5</li>
-                  <li>6</li>
-                  <li>7</li>
-                  <li>8</li>
-              </ul>
-          </nav> 
-          <a href="../../index.html"><img src="../../img/coronavirus.png" alt=""></a>
-      </div>
-
-      <div class="sidebar-1">
-        <h1>Covid-19 Tracker</h1>
-       
-          <div class="card " style="width: 18rem;">
-            <div class="card-body d-flex">
-              <h5 class="card-title">Total Case</h5>
-              <p class="card-text">.</p>
+        <section class="grid-container">
+            <div id="navbarPrincipal">
+                <div id="imgCorona">
+                    <a href="index.html" class="navbar"><img src="../../img/coronavirus.png" id="imageCorona" /></a>
+                </div>
+                <nav class="navbar" id="nav">
+                    <a href="#" class="navbar"><i class="ti-pie-chart"></i></a>
+                    <a href="../html/tracker2.html" class="navbar"><i class="ti-view-list"></i></a>
+                    <a href="../html/tracker3.html" class="navbar"><i class="ti-view-grid"></i></a>
+                    <a href="../html/tracker3.html" class="navbar"><i class="ti-layout-tab"></i></a>
+                    <a href="../html/tracker4.html" class="navbar"><i class="ti-layers-alt"></i></a>
+                    <a href="#" class="navbar"><i class="ti-stats-up"></i></a>
+                    <a href="#" class="navbar"><i class="ti-world"></i></a>
+                    <a href="#" class="navbar"><i class="ti-comment"></i></a>
+                    <a href="#" class="navbar"><i class="ti-flickr-alt"></i></a>
+                </nav>
             </div>
-          </div>
+        </section>
 
-          <div class="card card-dos " style="width: 18rem;">
-            <div class="card-body d-flex">
-              <h5 class="card-title">Active Case</h5>
-              <p class="card-text"></p>
-            </div>
-          </div>
+        <section class="contenedor__seccion1">
+            <aside class="containerCard">
+                <h2>COVID-19 Tracker</h2>
 
-          <div class="card card-dos " style="width: 18rem;">
-            <div class="card-body d-flex">
-              <h5 class="card-title">Recovered Case</h5>
-              <p class="card-text"></p>
-            </div>
-          </div>
+                <div id="cardOne">
+                    <h3>Total Case</h3>
+                    <button>+2588954</button>
+                    <p>377769130</p>
+                </div>
 
-          <div class="card card-dos " style="width: 18rem;">
-            <div class="card-body d-flex">
-              <h5 class="card-title">Deaths Case</h5>
-              <p class="card-text"></p>
-            </div>
-          </div>
+                <div id="cardTwo">
+                    <h3>Active Case</h3>
+                    <p>372099384</p>
+                </div>
 
-          <div class="card card-dos " style="width: 18rem;">
-            <div class="card-body d-flex">
-              <h5 class="card-title">Total Vaccinated</h5>
-              <p class="card-text"></p>
-            </div>
-          </div>
-     
-      </div>
+                <div id="cardThree">
+                    <h3>Recovered Case</h3>
+                    <button>+0</button>
+                    <p>0</p>
+                </div>
 
-      <div class="contenido">
-        <table id="example" class="display" style="width:100%">
-          <thead>
-              <tr>
-                <th>Flag</th>
-                <th>Country</th>
-                <th>Cases</th>
-                <th>New Cases</th>
-                <th>Deaths</th>
-                <th>Recovered</th>
-                <th>Active</th>
-                <th>Critical</th>
-                <th>Tested</th>
-              </tr>
-          </thead>
-          <tbody id="data">
-          </tbody>
-        </table>
-      </div> 
+                <div id="cardFour">
+                    <h3>Deaths Case</h3>
+                    <button>+6397</button>
+                    <p>5669746</p>
+                </div>
+            </aside>
 
-     
+            <section id="card">
+                <h3 class="h3-card">Top 10 Country</h3>
+            </section>
+
+            <template id="template-card">
+                <div class="caja">
+                    <div id="main-country" class="card_top">
+
+                        <div style="margin-left: 10px">
+                            <img class="img-bandera" src="" alt="Banderas" style="width: 30px" />
+                        </div>
+
+                        <div class="img-text_top" style="font-size: small"></div>
+                        <p class="texto-top"></p>   
+                    </div>
+                </div>
+            </template>
+        </section>
+
+        <section class="contenedor__seccion2 contenedorTabla contenedor2"></section>
     </div>
+    <script src="../js/tracker1.js"></script>
+</body>
 
-    <script src="../js/tracker2.js"></script>
-   
-
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
-    <script>
-     $(document).ready(function() {
-    $('#example').DataTable();
-      } );
-    </script>
-
-
-
-
-  </body>
 </html>
-
