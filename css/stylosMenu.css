@@ -69,6 +69,17 @@ li a{
   padding:6% 20%;
   margin-left: -19%;
 }
+
+
+
+#boton a {
+  list-style: none;
+  font-style: none;
+  text-decoration: none;
+  color: var(--color-landing);
+  font-family: var(--font-popin);
+}
+
 .logoCiviMap{
 	vertical-align: middle;
 	margin-left: 50%;
