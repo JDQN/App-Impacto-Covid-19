@@ -8,6 +8,110 @@
     <title>Document</title>
 </head>
 <body>
+
+    <div class="contenedor">
+
+ <section class="grid-container">
+       <div id="navbarPrincipal">
+	      <div id="imgCorona">
+	        <a href="index.html" class="navbar"><img src="assets/coronavirus.png" id="imageCorona"></a>
+  	    </div>			
+	<nav class="navbar" id="nav">
+		<a href="#" class="navbar active" ><i class="ti-pie-chart"></i></a>
+		<a href="#" class="navbar"><i class="ti-view-list"></i></a>
+		<a href="#" class="navbar"><i class="ti-view-grid"></i></a>
+		<a href="#" class="navbar"><i class="ti-layout-tab"></i></a>
+		<a href="#" class="navbar"><i class="ti-layers-alt"></i></a>
+		<a href="#" class="navbar"><i class="ti-stats-up"></i></a>
+		<a href="#" class="navbar"><i class="ti-world"></i></a>
+		<a href="#" class="navbar"><i class="ti-comment"></i></a>
+		<a href="#" class="navbar"><i class="ti-flickr-alt"></i></a>
+  </nav>
+       </div>
+ </section>
+ 
+
+
+    <section class="contenedor__seccion1">
+
+        
+<aside class="containerCard">
+
+    <h2>COVID-19 Tracker</h2>
+  
+      <div id="cardOne">
+        <h3>Total Case</h3>
+        <button>+2588954</button>
+        <p>377769130</p>
+      </div>
+
+      <div id="cardTwo">
+        <h3>Active Case</h3>
+        <p>372099384</p>
+      </div>
+
+      <div id="cardThree">
+        <h3>Recovered Case</h3>
+        <button>+0</button>
+        <p>0</p>
+      </div>
+
+      <div id="cardFour">
+        <h3>Deaths Case</h3>
+        <button>+6397</button>
+        <p>5669746</p>
+      </div>
+
+    </aside>    
+
+          <section id="card">
+
+           <h3 class="h3-card">Top 10 Country</h3>
+
+          
+          </section>    
+
+
+<template id="template-card">
+ 
+       
+       <div class="caja">
+            
+             <div id="main-country" class="card_top">
+               <div class="img-text_top"><img src="https://disease.sh/assets/img/flags/af.png" alt="" class="img"></div>
+               <p class="texto-top">38264897</p>
+             </div>
+         
+</template>
+
+    </section> 
+
+    <section class="contenedor__seccion2 contenedorTabla contenedor2">
+
+        <div class="container mt-2 shadow-lg p-3 mb-5 bg-body rounded contenedor2">
+            <h2>Top country wise covid-19 updates - tiles</h2>
+            <table class="table table-hover table table-striped contenedor2">
+              <thead>
+                <tr>
+                  <th>Top Cases</th>
+                  <th>Today Cases</th>
+                  <th>Today Deaths</th>
+                  <th>Today Deaths</th>
+                  <th>Top Active</th>
+                  <th>Top Recover</th>
+                </tr>
+              </thead>
+              <tbody id="data" class="contenedor2">
+              </tbody>
+            </table>
+        </div>
+    </section>
+
+ </div>   
+       
+     
+    <script src="js/script.js"></script>
+    <script src="js/componenteCard.js"></script>
     <script src="../js/tracker4.js"></script>
 </body>
 </html>
