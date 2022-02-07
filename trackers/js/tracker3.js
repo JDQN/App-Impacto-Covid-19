@@ -9,7 +9,7 @@ fetch(url) // Solicitud a la url
 const mostrarData = (data) => {
     console.log(data)
     let body = ''
-    for (let i = 0; i<data.length; i++){
+    for (let i = 0; i<10; i++){
         body += 
         `
         <tr>
@@ -104,8 +104,6 @@ const mostrarData = (data) => {
                  </div>
                 </div>
             </td>
-            
-         
          `
     }
     document.getElementById('data').innerHTML = body
