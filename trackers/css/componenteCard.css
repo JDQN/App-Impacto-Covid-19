@@ -32,11 +32,10 @@
     grid-area: containerCard;
     display: flex;
     justify-content: center;
-   
     align-items: flex-start;
-    /* padding: 20px 30px; */
-    /* overflow-y: scroll;
-    scrollbar-color: #eeeeee #ffffff; */
+    overflow-y: scroll;
+    height: 50vh;
+    scrollbar-color: #eeeeee #ffffff; 
     display: none;
     border-right: 1px solid rgba(0, 0, 0, 0.1); 
     overflow-x: auto;
@@ -44,18 +43,19 @@
 
   #card {
     overflow-y: scroll;
-    height: 35vh;
-
+    height: 50vh;
   }
+
   .contenedor__seccion1{
-    /* overflow-y: scroll; */
      height: 100vh;
   }
+
   .containerCard h2{
     font-size: 1.5rem;
     font-weight: 700;
     color: #0c0c0d;
   }
+
   .containerCard div{  
     margin: 10px;
     width: 25rem;
@@ -74,17 +74,25 @@
     padding: 1rem;  
   }
 
-
-  #cardOne button, #cardThree button, #cardFour button{
-    
+  #cardOne button, 
+  #cardThree button, 
+  #cardFour button, 
+  #cardcinco button{
     background-color:#ffffff;
     border:none;
     padding: 0.2rem;
   }
-  #cardOne p, #cardTwo p, #cardThree p, #cardFour p, #cardFive p{
+
+  #cardOne p, 
+  #cardTwo p, 
+  #cardThree p, 
+  #cardFour p, 
+  #cardFive p,
+  #cardcinco p{
     font-size: 1.5rem;
     font-weight: 600;
   }
+
   #cardOne{ 
     background-color: #fff2f2;
     border: none;
@@ -92,39 +100,79 @@
     justify-content: space-between;
     align-items: center;
   }
+
   #cardOne p{
     color: var(--color-cardOne);
   }
+
   #cardOne:hover{
     border:2px solid var(--color-cardOne);
   }
+
   #cardTwo{
     background-color: var(--color-cardTwo);
+    
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
+
   #cardTwo p{
     color: #ff6a07;
   }
+
   #cardTwo:hover{
     border:2px solid #ff6a07;
   }
+
   #cardThree{
     background-color: var(--color-cardThree);
+   
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
+
   #cardThree p{
     color: #83c519ac;
   }
+
   #cardThree:hover{
     border:2px solid #82c519;
   }
+
   #cardFour{
     background-color: var(--color-cardFour);
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
+  
   #cardFour p{
     color: #3639AE;
   }
   #cardFour:hover{
     border:2px solid var(--color-textoh2);
   }
+
+  #cardcinco{
+    background-color: #dddcdb;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #cardcinco p{
+    color: #3639AE;
+  }
+  #cardcinco:hover{
+    border:2px solid var(--color-textoh2);
+  }
+
+
   #cardFive{
     min-height: 150px;
     padding: 20px 10px 0 0px; 

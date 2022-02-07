@@ -1,0 +1,10 @@
+/**********seccion2**********/
+
+.contenedorTabla{
+    overflow-y: scroll;
+    height: 100vh;
+    
+}
+.contenedor2{
+    background-color:#f7f8fc;
+}

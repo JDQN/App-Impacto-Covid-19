@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
       console.log('obteniendo datos')
   
       try {
-          const res = await fetch("https://disease.sh/v3/covid-19/countries/");
+          const res = await fetch("https://disease.sh/v3/covid-19/countries?sort=cases");
           const countries = await res.json()
   
           pintarCards(countries)
