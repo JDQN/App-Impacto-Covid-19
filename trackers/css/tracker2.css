@@ -6,13 +6,12 @@
 	outline: none;
 }
 
-nav ul li {
+nav .menu ul{
     list-style: none;
 	text-decoration: none;
 }
 
 .contenedor {
-    
     text-align: center;
     height: 100vh;
     display: grid;
@@ -27,7 +26,7 @@ nav ul li {
 }
 
 .contenedor .sidebar-1{
-    background: #393e46;
+    
     grid-column-start: 2;
     grid-column-end: 5;
 }
@@ -50,11 +49,20 @@ nav ul li {
     font-size: 10px;
 }
 
-.contenido {
+ .contenido {
     overflow-y: scroll;
-    height: 90vh;
-}
+} 
 
 .contenido p{
     text-align: start;
+}
+
+.sidebar-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-dos {
+    margin-top: 10px;
 }
