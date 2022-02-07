@@ -8,7 +8,9 @@
 
   <!-- Estilos -->
   <link rel="stylesheet" href="css/stylos.css">
-  <link rel="stylesheet" href="./css/stylos.css">
+  <link rel="stylesheet" href="css/stylosMenu.css">
+  <link rel="stylesheet" href="css/Sympto.css">
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <!-- Icon -->
@@ -16,58 +18,182 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
 
-  <title>App Covid 19</title>
+  <title>App Covid 19 dev</title>
 </head>
 
 
 
-<body>
+<body id="menu">
 
-  <!-- Inicio Menu -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Dropdown
+<!-- Inicio Menu -->
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="/img/logo-white.png" class="logoCiviMap" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+      <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Home
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">Home One</a></li>
+              <li><a class="dropdown-item" href="#">Home Two</a></li>
+              <li><a class="dropdown-item" href="#">Home Three</a></li>
+              <li><a class="dropdown-item" href="#">Home Four</a></li>
+              <li><a class="dropdown-item" href="#">Home Five</a></li>
+              <li><a class="dropdown-item" href="#">Home Dark One</a></li>
+              <li><a class="dropdown-item" href="#">Home Dark Two</a></li>
+              <li><a class="dropdown-item" href="#">Home Dark Three</a></li>
+              <li><a class="dropdown-item" href="#">Home Dark Four</a></li>
+              <li><a class="dropdown-item" href="#">Home Dark Five</a></li>
+              <li><a class="dropdown-item" href="#">Onepage</a></li>
+              <li><a class="dropdown-item" href="#">Onepage Dark</a></li>
+            </ul>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#">Prevention</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Qurantine</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Hand Wash</a></li>
+              <li><a class="dropdown-item" href="#">Social Distance</a></li>
+              <li><a class="dropdown-item" href="#">Blog</a></li>
+              <li><a class="dropdown-item" href="#">Blog Details</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
+            <a class="nav-link" href="#">About</a>
           </li>
-        </ul>
-        <form class="d-flex">
-          <button class="btn btnTracker" type="submit">Tracker</button>
-        </form>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Help</a>
+          </li>
+      </ul>
+      <form class="d-flex">
+        <button class="btn btn-outline-success" id="boton" type="submit">
+          <a href="./trackers/html/tracker1.html">Tracker</a> 
+        </button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<header class="containerBanner">
+  <div class="container">
+    <div class="row">
+  
+      <div class="col">
+        <h1 class="tituloH1">
+          Stay Home, And <br> Prayer For Victim <br> Of Corona virus.
+        </h1>
+        <p class="parrafoBanner">
+          Human corona viruses are common and are typically assaciated with 
+          mild illnesses, similar to the common cold. The corona virus COVID-19 is 
+          affecting 210 countries & territories around the world and 2 
+          international conveyances.
+        </p>
+      </div>
+  
+      <div class="col imagenBanner">
+        <img class="imgBanner" src="/img/banner-right-image1.png"  style="width:80%;" alt="banner">
       </div>
     </div>
-  </nav>
-  <!-- End Menu -->
+  </div>
+  
+  
+  <div class="cardDatosBandera">
+    <div class="row">
+      <div class="col">
+        <img src="img/espana.png" style="width:90px;height:90px" alt="Bandera">
+      </div>
+      <div class="col">
+        <h2 class="textNumero">9779130</h2>
+        <label for="" class="labelUno">92986</label>
+        <label for="" class="labelDos">5030859</label>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- End Menu -->
 
-  <!-- Section Symptom -->
+<!-- INICIO SECTION  SYMPTOM -->
+<section id="symptom" class="d-flex justify-content-evenly">
+  <div class="container">
+    <div class="row">
+      <div class="col-xxl col-xl col-lg p-4">
+        <div class="title-symptom text-center">
+          <p>Symptom</p>
+          <h1>Basic Symptom Against</h1>
+          <h1>Corona virus</h1>
+        </div>
+      </div>
+    </div>
 
-  <!-- End Section Symptom -->
+    <div class="row m-auto">
+      <div class="col p-4 wid-symptom">
+        <article class="card-mb-2" style="max-width: 560px;">
+          <div class="card card-symptom" style="width: 20rem;">
+            <img src="./img/banner-right.png" style="width: 37%;" class="card-img-top img-symptom" alt="Sore throat">
+            <div class="card-body">
+              <h5 class="card-title">Sore throat</h5>
+              <p class="card-text">Older people, and those with underlying 
+                medical problems like high blood 
+                pressure, heart and lung problems, 
+                diabetes, or cancer
+              </p>
+            </div>
+          </div> 
+        </article>
+      </div>
+
+      <div class="col p-4 wid-symptom">
+        <article class="card-mb-2" style="max-width: 540px;">
+          <div class="card card-symptom" style="width: 20rem;">
+            <img src="./img/cough.svg" style="width: 30%;" class="card-img-top img-symptom" alt="Sore throat">
+            <div class="card-body">
+              <h5 class="card-title">Sore throat</h5>
+              <p class="card-text">Older people, and those with underlying 
+                medical problems like high blood 
+                pressure, heart and lung problems, 
+                diabetes, or cancer
+              </p>
+            </div>
+          </div> 
+        </article>
+      </div>
+
+      <div class="col p-4 wid-symptom">
+        <article class="card-mb-2" style="max-width: 540px;">
+          <div class="card card-symptom" style="width: 20rem;">
+            <img src="./img/breathing.svg" style="width: 36%;" class="card-img-top img-symptom" alt="Runny nose">
+            <div class="card-body">
+              <h5 class="card-title">Runny nose</h5>
+              <p class="card-text">People of all ages who experience fever 
+                and/or  cough associated withdifficulty
+                breathing/shortness of breath.
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+<!-- FIN SECTION SYMPTOM -->
 
   <!-- Section Prevent -->
   <section id="prevent" class="d-flex justify-content-center">
@@ -231,7 +357,7 @@
         </div>
         <div class="col p-4 wid-spreads">
           <article class="card-mb-2" style="max-width: 540px;">
-            <div class="card" style="width: 20rem;">
+            <div class="card card-spreads" style="width: 20rem;">
               <img src="./img/p-2.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Keep social distance</h5>
@@ -244,7 +370,7 @@
         </div>
         <div class="col p-4 wid-spreads">
           <article class="card-mb-2" style="max-width: 540px;">
-            <div class="card" style="width: 20rem;">
+            <div class="card card-spreads" style="width: 20rem;">
               <img src="./img/p-3.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Keep social distance</h5>
@@ -261,7 +387,7 @@
         <div class="col-xxl col-xl col-lg p-4 wid-spreads">
           <article class="card-mb-1" style="max-width: 540px;">
             <article class="card-mb-1" style="max-width: 540px;">
-              <div class="card" style="width: 20rem;">
+              <div class="card card-spreads" style="width: 20rem;">
                 <img src="./img/p-4.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Wear a Facemask</h5>
@@ -274,7 +400,7 @@
         </div>
         <div class="col p-4 wid-spreads">
           <article class="card-mb-2" style="max-width: 540px;">
-            <div class="card" style="width: 20rem;">
+            <div class="card card-spreads" style="width: 20rem;">
               <img src="./img/p-5.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Keep social distance</h5>
@@ -287,7 +413,7 @@
         </div>
         <div class="col p-4 wid-spreads">
           <article class="card-mb-2" style="max-width: 540px;">
-            <div class="card" style="width: 20rem;">
+            <div class="card card-spreads" style="width: 20rem;">
               <img src="./img/p-6.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Keep social distance</h5>
@@ -396,10 +522,7 @@
       <div class="cel__img">
         <img src="img/phone-1.png" alt="">
       </div>
-
     </article>
-
-
   </section>
   <!-- End Section wash-->
 
@@ -527,8 +650,11 @@
   </footer>
   <!-- End footer-->
 
+  <!-- Codigo JavaScript -->
   <script script src="https://kit.fontawesome.com/f955c68031.js" crossorigin="anonymous"></script>
   <scrip src="js/app.js"></scrip>
-</body>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 
+</body>
 </html>

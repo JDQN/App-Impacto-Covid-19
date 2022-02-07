@@ -619,8 +619,6 @@ body{
     font-weight: 600;
 
   }
-
-
   .card__btn-text {
     font-size: 1rem;
   }
@@ -672,16 +670,12 @@ body{
     margin-top: 50px;
     font-size: 1rem;
   }
-
-  }
-
-
-
+}
 
 
 /*******************SECTION PREVENT ****************/
 #prevent {
-  background-color: var(--color-landing);
+  background-color: #f0f0f0;
 }
 
 #prevent h1{
@@ -738,6 +732,10 @@ body{
   justify-content: center;
   align-items: center;
   display: flex;
+}
+.card-spreads{
+  border-radius: 6px !important;
+  box-shadow: 0px 8px 24px rgba(15, 65, 116, 0.493) ;
 }
 
 @media (max-width: 576px){

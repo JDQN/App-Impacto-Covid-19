@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="../css/tracker2.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css">
+
+    <title>Hello, world!</title>
+
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="navbar">
+          <a href="../../index.html"><img src="../../img/coronavirus.png" alt=""></a>
+          <nav >
+              <ul class="menu">
+                  <li>1</li>
+                  <li>2</li>
+                  <li>3</li>
+                  <li>4</li>
+                  <li>5</li>
+                  <li>6</li>
+                  <li>7</li>
+                  <li>8</li>
+              </ul>
+          </nav> 
+          <a href="../../index.html"><img src="../../img/coronavirus.png" alt=""></a>
+      </div>
+
+      <div class="sidebar-1">
+        <h1>Covid-19 Tracker</h1>
+       
+          <div class="card " style="width: 18rem;">
+            <div class="card-body d-flex">
+              <h5 class="card-title">Total Case</h5>
+              <p class="card-text">.</p>
+            </div>
+          </div>
+
+          <div class="card card-dos " style="width: 18rem;">
+            <div class="card-body d-flex">
+              <h5 class="card-title">Active Case</h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+
+          <div class="card card-dos " style="width: 18rem;">
+            <div class="card-body d-flex">
+              <h5 class="card-title">Recovered Case</h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+
+          <div class="card card-dos " style="width: 18rem;">
+            <div class="card-body d-flex">
+              <h5 class="card-title">Deaths Case</h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+
+          <div class="card card-dos " style="width: 18rem;">
+            <div class="card-body d-flex">
+              <h5 class="card-title">Total Vaccinated</h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+     
+      </div>
+
+      <div class="contenido">
+        <table id="example" class="display" style="width:100%">
+          <thead>
+              <tr>
+                <th>Flag</th>
+                <th>Country</th>
+                <th>Cases</th>
+                <th>New Cases</th>
+                <th>Deaths</th>
+                <th>Recovered</th>
+                <th>Active</th>
+                <th>Critical</th>
+                <th>Tested</th>
+              </tr>
+          </thead>
+          <tbody id="data">
+          </tbody>
+        </table>
+      </div> 
+
+     
+    </div>
+
+    <script src="../js/tracker2.js"></script>
+   
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
+    <script>
+     $(document).ready(function() {
+    $('#example').DataTable();
+      } );
+    </script>
+
+
+
+
+  </body>
+</html>
+
