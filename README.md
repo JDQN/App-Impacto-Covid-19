@@ -88,7 +88,7 @@ Pueden utilizar preprocesadores de CSS.
 
 
 
-<img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/3.Prevent.png">
+<img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/vistas/vista1.png">
 
 
 <img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/4.Spreads.png">
