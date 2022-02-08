@@ -124,8 +124,6 @@ body{
 }
 
 /* seccion cards*/
-
-
 .container__cards {
  display: flex;
  flex-direction: column;
@@ -135,8 +133,6 @@ body{
  gap: 20px;
   
 }
-
-
 
 .contenedor__texts h2 {
   text-align: center;
