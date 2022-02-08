@@ -86,9 +86,26 @@ Pueden utilizar preprocesadores de CSS.
 - 🌐 &nbsp; HTML5 | CSS3 | Bootstrap | JavaScritp |
 - 🛢 &nbsp; CONSUMO API  disease.sh. https://disease.sh/docs/#/
 
-
-<img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/mockups/home-1.png">
-<img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/mockups/Tracker-2.png">
+<img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/1.Inicio.png">
 
 
+<img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/2.Symptom.png">
+
+
+<img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/3.Prevent.png">
+
+
+<img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/4.Spreads.png">
+
+
+<img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/5.Faqs.png">
+
+
+<img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/6.Wash.png">
+
+
+<img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/7.News.png">
+
+
+<img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/8.Footer.png">
 
