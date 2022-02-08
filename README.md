@@ -87,11 +87,6 @@ Pueden utilizar preprocesadores de CSS.
 - 🛢 &nbsp; CONSUMO API  disease.sh. https://disease.sh/docs/#/
 
 
-<img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/1.Inicio.png">
-
-
-<img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/2.Symptom.png">
-
 
 <img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/3.Prevent.png">
 
@@ -109,3 +104,4 @@ Pueden utilizar preprocesadores de CSS.
 
 
 <img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/8.Footer.png">
+

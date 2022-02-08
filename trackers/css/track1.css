@@ -1,0 +1,215 @@
+.main {
+    grid-area: main;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px 10px;
+  }
+  .main #parteSuperior{
+    
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+  }
+  
+  #parteSuperior select{
+    width: 100%;
+    background-color: #ffffff;
+    padding: 11px 17px;
+    border:none;
+    box-shadow: 0 15px 30px 0 rgba(20, 50, 90, 0.05);
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+  }
+  #parteSuperior p{
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  
+  #parteMedia{  
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    height: auto;
+  }
+  #parteMediaIzq{
+    position: relative;
+    width: 50%;  
+    padding: 20% 10%;
+    text-align: left; 
+  }
+  #parteMediaIzq hr{
+    border:1px solid rgba(0, 0, 0, 0.1); 
+  }
+  
+  #parteMediaIzq #chd1, #parteMediaIzq #chd2, #parteMediaIzq #chd3, #parteMediaIzq #chd4,
+  #parteMediaIzq #chd5,#parteMediaIzq #chd6{
+    position: absolute;
+    width: 214px;
+    height: 104px;
+    padding: 10px 0;
+    overflow: hidden;
+  }
+  
+  
+  #parteMediaIzq #chd1 img, #parteMediaIzq #chd2 img, #parteMediaIzq #chd3 img,
+  #parteMediaIzq #chd4 img, #parteMediaIzq #chd5 img, #parteMediaIzq #chd6 img{
+    position: absolute;
+    width: 130px;
+    opacity: 0.1;
+    top:-30%;
+    right:-15%;  
+  }
+  
+  #parteMediaIzq #chd1{  
+    top: 20px;
+    left: 0;
+    background-color: red;  
+  }
+  
+  #parteMediaIzq #chd1:hover, #parteMediaIzq #chd2:hover, #parteMediaIzq #chd3:hover,
+  #parteMediaIzq #chd4:hover, #parteMediaIzq #chd5:hover, #parteMediaIzq #chd6:hover{
+    -webkit-transform:scale(1.04);
+    -moz-transform:scale(1.04);
+    -ms-transform:scale(1.04);
+    -o-transform:scale(1.04);
+    transform:scale(1.04);
+  
+  }
+  
+  @keyframes rotate {from {transform: rotate(0deg);}
+      to {transform: rotate(360deg);}}
+  @-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}}
+    #chd1 img:hover,#chd2 img:hover, #chd3 img:hover, #chd4 img:hover, #chd5 img:hover,
+    #chd6 img:hover {
+      -webkit-animation: 3s rotate linear infinite;
+      animation: 3s rotate linear infinite;
+      -webkit-transform-origin: 50% 50%;
+      transform-origin: 50% 50%;
+    }
+  
+  #parteMediaIzq #chd1 p{  
+    color: #3639AE;
+    margin-left: 20px;
+  }
+  #parteMediaIzq #chd2{
+    top:20px;
+    right: 20px;
+  }
+  
+  #parteMediaIzq #chd2 img{
+    top:-30%;
+    right:-15%;
+  }
+  
+  #parteMediaIzq #chd2 p{
+    color: #ff0000;
+    margin-left: 20px;
+  }
+  
+  #parteMediaIzq #chd3{
+    top: 140px;
+    left: 0; 
+    
+  }
+  
+  #parteMediaIzq #chd3 p{
+    color: #82c519;
+    margin-left: 20px;
+  }
+  
+  #parteMediaIzq #chd4{
+     top:140px;
+     right: 20px;
+    background-color: white;
+  }
+  
+  #parteMediaIzq #chd4 p{
+    color: #2c6dff;
+    margin-left: 20px;
+  }
+  
+  #parteMediaIzq #chd5{
+    top:270px;
+    left:0;  
+    background-color: blue; 
+  }
+  
+  #parteMediaIzq #chd5 p{
+    color: #ff6a07;
+    margin-left: 20px;
+  }
+  
+  #parteMediaIzq #chd6{
+    top:270px;
+    right: 20px;
+    background-color: pink;  
+  }
+  
+  #parteMediaIzq #chd6 p{
+    color: #b70202;
+    margin-left: 20px;
+  }
+  
+  
+  #parteMediaIzq h3{
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-left: 20px;
+  }
+  
+  #parteMediaIzq p{
+    font-size: 2.2rem;
+    font-weight: 600;
+  }
+  
+  
+  #parteMediaDer{
+    width: 50%;
+    background-color: rgb(236, 236, 4);
+    padding: 3%;
+  }
+  
+  /********** FIN SECTION 2 ********/  
+  
+  
+  .grid-container {
+    display: grid;
+    grid-template:
+    "navbar main"  4fr/
+    60px  5fr
+  
+  }
+  
+  @media (min-width: 360px) {
+    .grid-container {
+      grid-template:
+        "navbar  main"   10fr /
+      80px      auto;
+    }
+    .sidebar{
+      display: none;
+    }
+    .main{
+      width: 100%;
+    }  
+    .main #parteSuperior{
+    
+      width: 100%;
+      display: flex;
+      display: inline-flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+    }
+  
+    #parteSuperior select{
+      width: 32%;
+    }
+    
+  }

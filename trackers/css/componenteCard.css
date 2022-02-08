@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  :root{
+  --color-textoPrincipal: #0c0c0d;
+  --color-textoh2:#1a1662;
+  --color-cardOne:#ff0000;
+  --color-cardTwo:#fff9f1;
+  --color-cardThree:#edffec;
+  --color-cardFour:#eefbff;
+  --color-cardFive:#f9f9f9;
+  --color-writhe:#eeeeee;
+  }
+  
+  html {
+    height: 100%;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background-color:  #F8F9FE;
+  }
+  .grid-container > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /********* ESTILOS CARD PAISES *********/  
+  .containerCard {
+    grid-area: containerCard;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow-y: scroll;
+    height: 50vh;
+    scrollbar-color: #eeeeee #ffffff; 
+    display: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.1); 
+    overflow-x: auto;
+  }
+
+  #card {
+    overflow-y: scroll;
+    height: 50vh;
+  }
+
+  .contenedor__seccion1{
+     height: 100vh;
+  }
+
+  .containerCard h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #0c0c0d;
+  }
+
+  .containerCard div{  
+    margin: 10px;
+    width: 25rem;
+    height: 5rem;
+    padding:5%;
+    border-radius: 3%;
+  }
+  .containerCard h3{
+    color: #1a1662;
+    font-size: 1rem;
+    font-weight: 600;
+
+  }
+  #cardOne, #cardTwo, #cardThree, #cardFour{
+    position: relative;
+    padding: 1rem;  
+  }
+
+  #cardOne button, 
+  #cardThree button, 
+  #cardFour button, 
+  #cardcinco button{
+    background-color:#ffffff;
+    border:none;
+    padding: 0.2rem;
+  }
+
+  #cardOne p, 
+  #cardTwo p, 
+  #cardThree p, 
+  #cardFour p, 
+  #cardFive p,
+  #cardcinco p{
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  #cardOne{ 
+    background-color: #fff2f2;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #cardOne p{
+    color: var(--color-cardOne);
+  }
+
+  #cardOne:hover{
+    border:2px solid var(--color-cardOne);
+  }
+
+  #cardTwo{
+    background-color: var(--color-cardTwo);
+    
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #cardTwo p{
+    color: #ff6a07;
+  }
+
+  #cardTwo:hover{
+    border:2px solid #ff6a07;
+  }
+
+  #cardThree{
+    background-color: var(--color-cardThree);
+   
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #cardThree p{
+    color: #83c519ac;
+  }
+
+  #cardThree:hover{
+    border:2px solid #82c519;
+  }
+
+  #cardFour{
+    background-color: var(--color-cardFour);
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #cardFour p{
+    color: #3639AE;
+  }
+  #cardFour:hover{
+    border:2px solid var(--color-textoh2);
+  }
+
+  #cardcinco{
+    background-color: #dddcdb;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #cardcinco p{
+    color: #3639AE;
+  }
+  #cardcinco:hover{
+    border:2px solid var(--color-textoh2);
+  }
+
+
+  #cardFive{
+    min-height: 150px;
+    padding: 20px 10px 0 0px; 
+  }
+  #cardFive h3{
+    padding-left: 20px;
+  }
+  #cardFive div{
+    padding-left: 10%;
+    margin: 10px 0;
+    height: 3rem;
+    border: 1px solid var(--color-writhe);
+    background-color: crimson;
+    border-radius: 3%;
+  }
+  .grid-container {
+    grid-template:
+      "containerCard" 10fr / 80px    1.9fr   6.7fr;
+  }
+  .containerCard{
+    display: block;
+  }
+  /********* END ESTYLOS CARD PAISES *********/ 
+  
+  .caja{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .h3-card{
+    margin-left: 3rem;
+    color: #1a1662;
+    font-size: 1.5rem;
+  }
+  
+  
+  .card_top {
+    grid-column: 2/10;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     gap: 2rem;
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+  }
+  
+  .caja h3{
+    grid-column: 2/10;
+    text-align: center;
+  }
+  
+  .img-text_top img{
+    width: 20%;
+    margin-right: 1rem;
+    padding: 5px 10px;
+  }
+  
+  .texto-top{
+    margin-right: 1rem;
+    margin-top: 1rem;
+  }
