@@ -72,18 +72,9 @@ fetch('https://disease.sh/v3/covid-19/countries')
 
 
       </div>
-       <div id="parteMediaDer">
-       Aqui va mi croquis del mundo
-       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic cum illo 
-        culpa voluptatem aut veritatis exercitationem 
-        provident perspiciatis. Possimus necessitatibus earum temporibus? 
-        Itaque quasi magnam odit autem modi cupiditate dolor!
-        Debitis, veniam voluptatum fugit reiciendis ipsum architecto 
-        magni voluptates. Suscipit odit a velit repellendus rerum deserunt 
-        aliquid, harum quod, adipisci veritatis, ab voluptate sequi vel non iste! 
-        Dolorem, tempora voluptate?
-       </p>
+       <div>
+       <div class="elfsight-app-ffab6842-f1ff-42b9-81af-92c0aa45b611"></div>
+      
        </div>
    </div>
   </section>`
