@@ -91,17 +91,25 @@ Pueden utilizar preprocesadores de CSS.
 <img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/vistas/vista1.png">
 
 
-<img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/4.Spreads.png">
+<img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/vistas/vista2.png">
 
 
-<img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/5.Faqs.png">
+<img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/vistas/vista3.png">
 
 
-<img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/6.Wash.png">
+<img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/vistas/vista4.png">
 
 
-<img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/7.News.png">
+<img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/vistas/vista5.png">
 
 
-<img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/8.Footer.png">
+<img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/vistas/vista6.png">
+
+
+<img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/vistas/vista7.png">
+
+
+<img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/dev/vistas/vista8.png">
+
+
 
