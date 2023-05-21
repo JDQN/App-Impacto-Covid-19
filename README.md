@@ -86,4 +86,6 @@ Pueden utilizar preprocesadores de CSS.
 - 🌐 &nbsp; HTML5 | CSS3 | Bootstrap | JavaScritp |
 - 🛢 &nbsp; CONSUMO API  disease.sh. https://disease.sh/docs/#/
 
+<img src="https://github.com/JDQN/App-Impacto-Covid-19/blob/main/img.png?raw=true">
+
 
